@@ -1,0 +1,32 @@
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# Database files
+*.sqlite3
+e_commerce.db
+
+# Django migrations
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# System files
+.DS_Store
+*.swp
+
+# VSCode settings
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Byte-compiled and backup files
+*.bak
+*.backup
+*.orig
+*.rej
